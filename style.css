@@ -1,0 +1,82 @@
+body {
+    background-color: #b1b1b1;
+    margin: 0;
+    padding-top: 5vh;
+}
+
+p {
+    margin: 0;
+}
+
+.box {
+    height: 90vh;
+    background-color: #909090;
+    margin-right: 20%;
+    margin-left: 20%;
+    border-radius: 20px;
+    border: 1px black;
+    box-shadow: 0px 5px 42px 2px rgba(0, 0, 0, 0.14);
+}
+
+.box__input {
+    width: 80%;
+    height: 5vh;
+    border-radius: 25px;
+    margin-top: 5%;
+    margin-left: 8%;
+    font-size: 200%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.dropdown {
+    position: absolute;
+    width: 51%;
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: #fff;
+    overflow-y: auto;
+    display: none;
+    right: 24%;
+    font-size: 150%;
+    z-index: 10;
+}
+
+.box__items {
+    width: 83%;
+    height: 75%;
+    margin-top: 5vh;
+    margin-left: 9%;
+    margin-right: 9%;
+    overflow: auto;
+    padding: 0;
+    border-radius: 15px;
+    font-size: 200%;
+}
+
+.box__items::-webkit-scrollbar {
+    display: none;
+}
+
+.box__item {
+    position: relative;
+    height: 150px;
+    background-color: #7e7e7e;
+    border-radius: 15px;
+    padding: 4%;
+    padding-bottom: 0;
+    margin-bottom: 2%;
+}
+
+.delBtn {
+    width: 100px;
+    height: 100px;
+    background-image: url('cross-svgrepo-com.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    position: absolute;
+    left: 85%;
+    bottom: 40px;
+    border: none;
+}
